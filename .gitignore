@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Model files (too large for GitHub)
+*.h5
+*.weights.h5
+emotion_model.json
+best_emotion_model.weights.h5
+
+# Training outputs
+training_history.json
+emotion_dict.json
+training_curves.png
+confusion_matrix.png
+
+# Dataset
+/content/
+*.zip
+train/
+test/
+
+# Environment
+.env
+.venv/
+env/
+venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
