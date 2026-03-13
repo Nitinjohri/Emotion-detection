@@ -13,6 +13,34 @@
 
 ---
 
+## 🔍 About
+
+**Emotion Detection** is an open-source project that uses a custom **Convolutional Neural Network (CNN)** to recognize human emotions from facial expressions in real time. It was built to explore the intersection of computer vision and affective computing — the field concerned with systems that can interpret and respond to human emotions.
+
+The system is trained on grayscale face images resized to **48×48 pixels** and can classify a face into one of **7 universal emotion categories**:
+
+> 😠 Angry · 🤢 Disgust · 😨 Fearful · 😊 Happy · 😐 Neutral · 😢 Sad · 😲 Surprised
+
+### How It Works
+
+1. **Face Detection** — OpenCV's Haar Cascade Classifier scans each frame or image to locate face regions.
+2. **Preprocessing** — Detected faces are cropped, converted to grayscale, and resized to 48×48 pixels.
+3. **Emotion Prediction** — The cropped face is passed through a 5-block CNN that produces a probability distribution over the 7 emotion classes via a softmax output layer.
+4. **Visualization** — Bounding boxes are drawn around each face with the predicted emotion label and confidence score overlaid.
+
+### Why This Project?
+
+Emotion detection has broad practical applications: from **mental health monitoring** and **driver alertness systems** to **customer sentiment analysis** and **interactive entertainment**. This project provides a clean, end-to-end reference implementation — covering model training, evaluation, and deployment — that is easy to adapt for research or production use.
+
+### Who Is It For?
+
+- Researchers exploring facial affect recognition
+- Developers building emotion-aware applications
+- Students learning deep learning and computer vision
+- Anyone curious about how machines perceive human feelings
+
+---
+
 ## 📌 Overview
 
 A CNN-based facial emotion detection system that classifies faces into **7 emotion categories**: Angry, Disgust, Fearful, Happy, Neutral, Sad, and Surprised. Comes with a sleek **web dashboard** for real-time predictions.
