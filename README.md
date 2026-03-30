@@ -1,5 +1,5 @@
 <p align="center">
-  <h1 align="center">🧠 Emotion Detection</h1>
+  <h1 align="center"> Emotion Detection</h1>
   <p align="center">
     <strong>Deep learning-powered facial emotion recognition with real-time dashboard</strong>
   </p>
@@ -13,7 +13,7 @@
 
 ---
 
-## 🔍 About
+##  About
 
 **Emotion Detection** is an open-source project that uses a custom **Convolutional Neural Network (CNN)** to recognize human emotions from facial expressions in real time. It was built to explore the intersection of computer vision and affective computing — the field concerned with systems that can interpret and respond to human emotions.
 
@@ -41,25 +41,25 @@ Emotion detection has broad practical applications: from **mental health monitor
 
 ---
 
-## 📌 Overview
+##  Overview
 
 A CNN-based facial emotion detection system that classifies faces into **7 emotion categories**: Angry, Disgust, Fearful, Happy, Neutral, Sad, and Surprised. Comes with a sleek **web dashboard** for real-time predictions.
 
-### ✨ Key Features
+###  Key Features
 
 | Feature | Description |
 |---------|-------------|
-| 🏗️ **Deep CNN Architecture** | 5 Conv blocks with BatchNorm, Dropout, and 2 Dense layers |
-| 📊 **Data Augmentation** | Rotation, flip, zoom, shift, shear to prevent overfitting |
-| ⚖️ **Class Balancing** | Automatic class weights for imbalanced datasets |
-| 🎯 **Smart Training** | EarlyStopping, ReduceLROnPlateau, ModelCheckpoint callbacks |
-| 🏷️ **Label Smoothing** | Reduces overconfidence, improves generalization |
-| 📈 **Full Evaluation** | Confusion matrix, classification report, training curves |
-| 🌐 **Web Dashboard** | Upload images or use webcam for real-time emotion detection |
+|  **Deep CNN Architecture** | 5 Conv blocks with BatchNorm, Dropout, and 2 Dense layers |
+|  **Data Augmentation** | Rotation, flip, zoom, shift, shear to prevent overfitting |
+|  **Class Balancing** | Automatic class weights for imbalanced datasets |
+|  **Smart Training** | EarlyStopping, ReduceLROnPlateau, ModelCheckpoint callbacks |
+|  **Label Smoothing** | Reduces overconfidence, improves generalization |
+|  **Full Evaluation** | Confusion matrix, classification report, training curves |
+|  **Web Dashboard** | Upload images or use webcam for real-time emotion detection |
 
 ---
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### Prerequisites
 
@@ -77,7 +77,7 @@ cd emotion-detection/Emotion-detection
 pip install -r requirements.txt
 ```
 
-### 🎓 Train the Model
+###  Train the Model
 
 Run `project.py` in Google Colab or Jupyter Notebook (requires a dataset zip with emotion-labeled face images):
 
@@ -92,7 +92,7 @@ This will:
 4. Save the model (`emotion_model.json` + `emotion_model.weights.h5`)
 5. Print a full classification report
 
-### 🌐 Launch the Dashboard
+###  Launch the Dashboard
 
 ```bash
 python dashboard.py
@@ -102,7 +102,7 @@ Open **http://localhost:5000** in your browser.
 
 ---
 
-## 🏗️ Model Architecture
+##  Model Architecture
 
 ```
 Input (48×48×1 grayscale)
@@ -126,21 +126,21 @@ Input (48×48×1 grayscale)
 
 ---
 
-## 🌐 Dashboard Features
+##  Dashboard Features
 
 | Panel | Description |
 |-------|-------------|
-| 📁 **Image Upload** | Drag & drop images for face detection + emotion prediction |
-| 📷 **Live Webcam** | Real-time video feed with emotion overlays |
-| 🏗️ **Model Architecture** | Layer-by-layer summary with parameter counts |
-| 📊 **Dataset Distribution** | Bar charts showing class balance |
-| 🏷️ **Emotion Map** | Visual grid of all emotion class labels |
+|  **Image Upload** | Drag & drop images for face detection + emotion prediction |
+|  **Live Webcam** | Real-time video feed with emotion overlays |
+|  **Model Architecture** | Layer-by-layer summary with parameter counts |
+|  **Dataset Distribution** | Bar charts showing class balance |
+|  **Emotion Map** | Visual grid of all emotion class labels |
 
 Built with a **dark glassmorphism UI** — gradient accents, glass cards, micro-animations, and responsive layout.
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 Emotion-detection/
@@ -163,7 +163,7 @@ Emotion-detection/
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 - **Deep Learning:** TensorFlow / Keras
 - **Computer Vision:** OpenCV (Haar Cascade face detection)
@@ -172,6 +172,6 @@ Emotion-detection/
 
 ---
 
-## 📄 License
+##  License
 
 This project is open source and available under the [MIT License](LICENSE).
